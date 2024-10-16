@@ -1,5 +1,436 @@
 [
 	{
+		"name": "Alguarena",
+		"leaderName": "Présidente Fédérale Mazeri Abrogara",
+		"adjective": ["Alguareno"],
+		"startBias": ["Coast", "Jungle"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "L’Alguarena est une fédération regroupant trois états insulaires de culture hispanophone et précolombienne. La naissance de cette fédération se lie à différents états fédérés ayant longtemps été en proie à la guerre durant l’âge coloniale (situé entre le XVIIe et le XIXe siècle). Durant cette ère, les principales dynasties blanches et latines régionales ont multiplié les affrontements pour dominer les archipels aux limites des deux empires. En s’emparant des îles, les deux camps espéraient pouvoir créer et entretenir l’une des principales routes commerciales internationales, participant à la jonction des deux hémisphères.",
+		"startIntroPart2": "Les aristocraties associées à ses deux empires ayant peu à peu perdu de leur panache, la paix et la coopération internationale s’est renforcée, laissant de côté les velléités coloniales. Les gouvernances des îles ayant fini par recouvrir leur indépendance, elles se sont rapprochées dans le but de reprendre en main l’activité économique régionale et de renoncer durablement à la guerre dans la région.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Malgré la certaine déception qui anime votre discours, permettez-moi de partager le plaisir qu’est le mien à inaugurer nos premiers échanges diplomatiques dignes de ce nom.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Vous n’êtes pas sans savoir que nos deux pays ont la possibilité de rendre ce monde meilleur, un espace bonifié par la densification des échanges commerciaux et le maintien d’une force de frappe dissuasive.",
+		"tradeRequest": "Vous n’êtes pas sans savoir que nos deux pays ont la possibilité de rendre ce monde meilleur, un espace bonifié par la densification des échanges commerciaux et le maintien d’une force de frappe dissuasive.",
+
+		"outerColor": [51, 204, 204],
+		"innerColor": [255,204,0],
+		"uniqueName": "Organisation des Nations Commerçantes",
+	        "uniques": ["[+1 Gold] from each Trade Route","[20] Unit Supply","[-50]% City-State Influence degradation"],
+		"cities": ["Aserjuco", "Pomosejo", "Jacalbulco", "Chesterboro", "Atimalco", "Santialche", "Cо́rteixo", "Salvando"]
+	},
+
+	{
+		"name": "Pharois",
+		"leaderName": "Ransu Rasanen",
+		"adjective": ["Pharois"],
+		"startBias": ["Coast", "Tundra"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "La Libre Association des Propriétaires de Phares et de Filets d'Eurysie Septentrionale est, comme son nom l'indique, un conglomérat de propriétaires terriens et de capitaines de navires. Suite à une révolution prolétarienne ratée au sein de l'ancien Royaume d'Albi, la petite bourgeoisie a prospéré sur la Grande et est parvenue à assurer sa mainmise sur cette région en proie au chaos. Elle y règne depuis avec pour seul et unique objectif la préservation de ses intérêts privés et du respect de la propriété territoriale. Ainsi, le Syndicat des Poissonniers s'apparente plus à une Fédération de commerçants qu'à un véritable État Nation, ce qui ne l'empêche absolument pas de s'être dotée d'institutions fonctionnelles et de prétendre à une représentation digne de ce nom à l'internationale.",
+		"startIntroPart2": "Il se compose majoritairement de villes côtières et industrielles, peu avancées dans les terres, ainsi que de plateformes de forage en mer.",
+		
+		"declaringWar": "La guerre moderne est inaccessible, mais la guérilla, tout le monde peut se l’offrir.",
+		"attacked": "On peut embarquer un lance-missiles, ou lâcher des plongeurs qui iront miner les coques des navires stationnaires. Derrière un navire de guerre qui fera parapluie, c’est vingt vedettes qui se déploient tout d’un coup pour briser une formation.",
+		"defeated": "La mer n’a pas de frontières. La mer EST une frontière. La frontière entre les hommes libres et les autres. La frontière qui transgresse les règles, les codes, les lois, qui fait de vous un aventurier, un pirate.",
+		"introduction": "Nos méthodes diffèrent mais nos buts sont les mêmes. Nous réglerons les questions théoriques quand le dernier bourgeois aura été envoyé par le fond. En ces temps où nos ennemis s'organisent, un minimum de coordination ne fait pas de mal, entre mes forces et les vôtres.",
+		
+		"neutralHello": "Parlez toujours, quelqu'un vous répondra certainement.",
+		"neutralLetsHearIt": ["Parlez toujours, quelqu'un vous répondra certainement."],
+		"neutralNo": ["Je suis peut-être âgé mais pas aveugle, me prenez vous pour une bille ?"],
+		"neutralYes": ["Je ne peux qu’être d’accord avec vous."],
+
+		"hateHello": "Parlez toujours, quelqu'un vous répondra certainement.",
+		"hateLetsHearIt": ["Parlez toujours, quelqu'un vous répondra certainement."],
+		"hateNo": ["Il n'est pas question de laisser votre gouvernement ou pire, vos forces armées, superviser cela."],
+		"hateYes": ["Nous sommes ennemis mais j'ai besoin de fric."],
+		
+		"afterPeace": "Ces termes nous conviennent donc à tous deux.",
+		"tradeRequest": "Au plaisir de faire affaire avec vous.",
+
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"uniqueName": "République Pirate",
+	        "uniques": ["[+2] Movement <for [Water] units>","[+1 Gold] from each Trade Route","When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",],
+		"cities": ["Pharot", "Pohjoishammas", "Helmi", "Kanavaportti", "Caprice Coast", "Hylkeenlahti", "Etelähammas", "Tummametsä", "Suuretaallot", "Valaidenportti", "Majakka", "Merivoso", "Albigärk", "Porto Mundo"]
+	},
+
+	{
+		"name": "Grand Kah",
+		"leaderName": "Comité de Volonté Publique",
+		"adjective": ["Kah-tanais"],
+		"startBias": ["Avoid [Tundra]","Avoid [Desert]"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Le Grand Kah est un ensemble de provinces coloniales et autochtones s'étant rebellées il y a de ça plusieurs siècles pour fonder une république libre et indépendante opposée à l’esclavagisme et prônant des notions de liberté, de vertu et de démocratie. Sa culture est un mélange de celle des colons latins, sino-japonais et des autochtones plus tribaux. Le zèle révolutionnaire ne se calma jamais vraiment en ça que plusieurs aventures autoritaires et monarchiques poussées d’abord par les classes bourgeoises ayant survécu à la première révolution puis par les partisans d'un leader militaire particulièrement populaire (Jin Sukaretto) furent à leur tour balayées par des insurrections, et que la liberté toute particulière laissée par le Kah à ses habitants attira quelques-uns des exilés politiques, judiciaires et des idéalistes les plus notables du globe au cours des siècles, sans parler des réfugiés en tout genre.",
+		"startIntroPart2": "Le Kah est, selon la conception officielle des leaders de la première révolution, une Roue. Un éternel recommencement qui progresse sur une même route, idée héritée des croyances ancestrales autochtones et mis en forme par des penseurs humanistes et objectivistes locaux.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Le Grand Kah s'est dressé. Sortant lentement de son sommeil, émergeant de son territoire comme un grand mammifère d'une bien trop longue hibernation, tâtant lentement le sol, surpris de voir comme il a changé.",
+		
+		"neutralHello": "Très amicalement.",
+		"neutralLetsHearIt": ["Très amicalement."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Vous avez des amis, à l'autre bout des mers."],
+
+		"hateHello": "Très amicalement.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Nous sommes loin de vous, mais notre cœur est à vos côtés."],
+		
+		"afterPeace": "Nous sommes loin de vous, mais notre cœur est à vos côtés. Puisse cette épreuve être le prélude d'un réveil des consciences, et non d'une abominable chute dans la noirceur.",
+		"tradeRequest": "Serrez donc la main qui vous est tendue.",
+
+		"outerColor": [155, 0, 0],
+		"innerColor": [0,0,0],
+		"uniqueName": "Communalisme",
+	        "uniques": ["[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory"],
+		"cities": ["Lac-Rouge", "Heon-Kuang", "Reaving", "Nayoga Lamanai", "Tlacuahian", "Somagoumbé", "Chan Chimù", "Gokiary"]
+	},
+
+	{
+		"name": "Lofoten",
+		"leaderName": "Chancelière Fédérale Gudrün Stefersøn",
+		"adjective": ["Lofotèn"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "Très attachés aux libertés fondamentales et au fédéralisme, les citoyens des Provinces-Unies tiennent absolument à leur autonomie régionale et au principe de la décentralisation, au profit d'une gouvernance locale par Province. L'absence de gouvernement central fort est régulièrement évoqué et mis en avant par les différents mouvements politiques même si dans les faits la capitale fédérale, de par son histoire et l'ensemble des institutions qui s'y trouvent, conserve une grande influence politique et sociale.",
+		"startIntroPart2": "La société Lofotène est réputée pour ses avancées sociales très novatrices, et ont très tôt accordé de nombreux droits civiques à leur population, peu après leur déclaration indépendance, notamment en matière de droits des femmes et des minorités, exception faites des minorités sexuelles LGBT à cause d'une très grande influence du protestantisme dans hautes sphères du pouvoir et les institutions éducatrices. Très libéral en matière de commerce, la population est dans l’immense majorité chrétienne-démocrate, plutôt centriste et naturellement méfiante et hostile envers le socialisme et son pendant le plus extrême : le communisme. Cependant, es dernières années, le nationalisme et le conservatisme ont fait une entrée en force dans le paysage politique et au parlement, avec un regain d'intérêt pour la nostalgie coloniale et la mythologique nordique fantasmée.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "Unis dans l’honneur, invaincus nous demeurons",
+		"introduction": "Madame la Conseillère d'Etat Fédérale aux Affaires Etrangères, Madame Catherine de Tocqueville-Masson, est heureuse de vous accueillir au nom des Provinces-Unies du Lofoten et de l'honorable Chancelière Fédérale Gudrün Stefersøn.",
+		
+		"neutralHello": "Madame la Conseillère d'Etat Fédérale aux Affaires Etrangères, Madame Catherine de Tocqueville-Masson, est heureuse de vous accueillir au nom des Provinces-Unies du Lofoten et de l'honorable Chancelière Fédérale Gudrün Stefersøn.",
+		"neutralLetsHearIt": ["Madame la Conseillère d'Etat Fédérale aux Affaires Etrangères, Madame Catherine de Tocqueville-Masson, est heureuse de vous accueillir au nom des Provinces-Unies du Lofoten et de l'honorable Chancelière Fédérale Gudrün Stefersøn."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Les Provinces-Unies du Lofoten sont une nation riche, dont la solvabilité est solide, et il est de notoriété publique que nous avons toujours remboursé nos dettes en temps et en heure."],
+
+		"hateHello": "Madame la Conseillère d'Etat Fédérale aux Affaires Etrangères, Madame Catherine de Tocqueville-Masson, est heureuse de vous accueillir au nom des Provinces-Unies du Lofoten et de l'honorable Chancelière Fédérale Gudrün Stefersøn.",
+		"hateLetsHearIt": ["Madame la Conseillère d'Etat Fédérale aux Affaires Etrangères, Madame Catherine de Tocqueville-Masson, est heureuse de vous accueillir au nom des Provinces-Unies du Lofoten et de l'honorable Chancelière Fédérale Gudrün Stefersøn."],
+		"hateNo": ["Non."],
+		"hateYes": ["Les Provinces-Unies du Lofoten sont une nation riche, dont la solvabilité est solide, et il est de notoriété publique que nous avons toujours remboursé nos dettes en temps et en heure."],
+		
+		"afterPeace": "Les Provinces-Unies du Lofoten sont une nation riche, dont la solvabilité est solide, et il est de notoriété publique que nous avons toujours remboursé nos dettes en temps et en heure.",
+		"tradeRequest": "Les Provinces-Unies du Lofoten sont une nation riche, dont la solvabilité est solide, et il est de notoriété publique que nous avons toujours remboursé nos dettes en temps et en heure.",
+
+		"outerColor": [19,37,132],
+		"innerColor": [243,41,38],
+		"uniqueName": "Progressisme",
+	        "uniques": ["[+50]% Golden Age length","[+1 Happiness] from every [City]"],
+		"cities": ["Pembertøn", "Port-Sainte-Anne", "Kæviksborg", "Nørdvisk", "Lübeck", "Ingebørg", "Port-Skælländer", "Øst-Fårö", "Käskinen", "Fort-Saint-Augustin", "Blaaviken", "Sodden", "Dunwall", "Brügge", "Riverdell", "Östersund", "Nærøyfjord", "Port-Lexeter", "Velen", "Moose Creek", "Northbrooke", "Pendletøn", "Port-Trømso", "Harrenhall", "New-Aberdeen", "Port-Häven", "San Junipero", "Oxenfurt", "Duchesnay", "Louisbourg", "Baie Sainte Ursule", "Baie Sainte Catherine", "Val-Aux-Cerfs", "Hauteroche", "Le Bouvreuil", "Longue-Rive", "Palantir", "Les Sorinières", "Grande-Pointe", "Anse-du-Loup", "Saint-Roch-La-Forêt", "Sainte-Odile", "Wyzima", "Ålesund", "New-Walden", "Thinðavellir", "Nivellen", "Reyðarfjörður", "Mørvik", "Port-Skælländer", "Svalbarð", "Ingebørg", "Húsavík", "Kirkwall", "Uhatshimatakahp", "Wendaké", "Skjàlfa", "Ard Skellig", "Ard Carraigh", "Ard Elven", "Sørvaranger", "Karlsøyvær"]
+	},
+
+	{
+		"name": "Jashuria",
+		"leaderName": "Premier Ministre Nantipat Sisrati",
+		"adjective": ["Jashurien"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Buddhism",
+		
+		"startIntroPart1": "La Troisième République du Jashuria – ou Jashuria – est une république parlementaire située au sud-est du Nazum. Aussi nommée République des Deux Océans, le pays est aisément identifiable par l’immense canal fluvial qui traverse le pays du nord au sud, permettant une navigation aisée entre les deux océans bordant le Nazum. Le Jashuria est une démocratie représentative libérale, mercantile et laïque, dont de nombreuses institutions sont les héritières des traditions bouddhistes à l’œuvre dans le pays, ce qui rend parfois la lecture de la politique jashurienne très cryptique.",
+		"startIntroPart2": "Les Jashuriens vivent sur un territoire difficilement exploitable, à cause des jungles luxuriantes qui poussent dans le pays et ont donc développé les techniques leur permettant de créer des infrastructures solides leur permettant d’optimiser chaque mètre carré de leur territoire. C’est un pays qui cherche avant tout à être reconnu sur la scène internationale comme la principale force politique et économique du Nazum et s’intéresse aux autres continents uniquement pour y développer des enclaves via sa diaspora et ses entreprises de travaux publics. Le Jashuria fait parti de l'Organisation des Nations Commerçantes en tant que membre fondateur. Il tient au sein de cette organisation une position de modéré.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Le Jashuria souhaite la bienvenue à toutes les délégations et à tous les diplomates. Les diplomates sont libres de solliciter les services du Hall des Ambassadeurs à toute heure du jour et de la nuit.",
+		
+		"neutralHello": "Estimés représentants",
+		"neutralLetsHearIt": ["Estimés représentants"],
+		"neutralNo": ["Cordialement"],
+		"neutralYes": ["Il est vrai que nos deux pays, bien que très différents culturellement, partagent le même idéal de paix et que des échanges commerciaux équilibrés et diversifiés entre nos deux nations nous seraient à tous profitables."],
+
+		"hateHello": "Estimés représentants.",
+		"hateLetsHearIt": ["Estimés représentants."],
+		"hateNo": ["Cordialement"],
+		"hateYes": ["Il est vrai que nos deux pays, bien que très différents culturellement, partagent le même idéal de paix et que des échanges commerciaux équilibrés et diversifiés entre nos deux nations nous seraient à tous profitables."],
+		
+		"afterPeace": "Il est vrai que nos deux pays, bien que très différents culturellement, partagent le même idéal de paix et que des échanges commerciaux équilibrés et diversifiés entre nos deux nations nous seraient à tous profitables.",
+		"tradeRequest": "Estimés représentants.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [118,170,220],
+		"uniqueName": "Grand Canal",
+	        "uniques": ["[+1 Gold] from each Trade Route", "[+1] Movement <for [Water] units>", "[-25]% maintenance costs <for [Water] units>"],
+		"cities": ["Agartha", "Azur", "Ankévran", "Majulia", "Lankasara", "Nanakarni", "Medhannala", "Panomyong", "Khumai", "Vijaya", "Semapani", "Wipulasin", "Siriwadena", "Ninrati", "Jagath", "Pantaseeha", "Amrasani", "Vidisha", "Kalihar", "Danijpur", "Bankura", "Monywan", "Pyapon", "Pannaya", "Ko Laqyia", "Prakyan", "Narathiwani", "Sungai", "Kuanthan", "Thanjavur", "Ramanrawan", "Tirunelveli", "Madikeri", "Murshani", "Satara", "Palwal", "Shandol", "Nainpur", "Baihar", "Mungeli", "Mahasanund", "Dhamtari", "Lakshmipur", "Brahmanjapar", "Anwara", "Kyugangon", "Minbyin", "Sansaran", "Susipitayong", "Katchakan", "Phya Natini", "Prastavani", "Tangwoni", "Seesrali", "Nethamana", "Koi Lanyonh", "Kamsiwiluk", "Palipanin", "Sitakunda", "Rajbiran"]
+	},
+
+	{
+		"name": "Teyla",
+		"leaderName": "Catherine III",
+		"adjective": ["Teylais"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "Le meilleur régime politique est la monarchie absolue tempérée par l'assassinat.",
+		"startIntroPart2": "Par ces mots ont résume brièvement mais sincèrement l’histoire du Royaume de Teyla. Cela a même amené un dicton célèbre parmi la population 'Que ceux qui ne sont pas assassinés puissent à jamais se mettre un coup de couteau'. Un dicton bien lugubre qui conseil a tout puissant n’ayant pas fait l’objet d’une tentative d’assassinat de simuler une telle tentative pour échapper aux futurs tentatives d'assassinats.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Par ma fonction, j'ai l'honneur de vous écrire pour vous faire part du souhait de ma nation d'entamer le dialogue diplomatique entre nos nations.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["J'espère que cela sera un exemple futur pour nos nations dans la conduite des relations diplomatiques."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["J'espère que cela sera un exemple futur pour nos nations dans la conduite des relations diplomatiques."],
+		
+		"afterPeace": "Je suis un homme optimiste et convaincu que ce message sera l'origine d'avancées profitant a nos nations et peuples tout en poursuivant un but commun.",
+		"tradeRequest": "Très cher homologue, j'ai le privilège de vous adresser les chaleureuses salutations de mon peuple pour le Royaume de Teyla. Sachez que c'est avec un immense honneur et une immense joie que je vous écris.",
+
+		"outerColor": [0,68,82],
+		"innerColor": [247,198,56],
+                "uniqueName": "Organisation des Nations Démocratiques",
+	        "uniques": ["[-50]% Unhappiness from [Population] [in all cities]", "[+10]% Strength <for [All] units> <during a Golden Age>", "Defense bonus when embarked <for [All] units>"],
+		"cities": ["Manticore", "Gèvre", "Cielazur", "Bellepierre", "Étoile-sur-Seine", "Villedor", "Val-deLys", "Lys-sur-Dune", "Châteauclair", "Saint-De-Tour"]
+	},
+
+        {
+		"name": "Fortuna",
+		"leaderName": "Francesca Federica di Fortuna",
+		"adjective": ["Fortunéen"],
+		"startBias": ["Coast", "Jungle"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "La Sérénissime République de Fortuna est d'après ses habitants l'un des plus vieux états du monde encore en place à ce jour. Ses origines remontant ainsi à la fin de l'époque antique et l'entrée dans la période médiévale, en cette époque trouble où les hommes s'affrontaient sans cesse pour des lopins de terres, des trésors de misères et quelques convictions douteuse",
+		"startIntroPart2": "D'après la légende, las des conflits et de l'anarchie ambiante, des hommes et des femmes de divers peuples décidèrent de s'exiler par delà les étendues aqueuses de l'ouest, pourtant leur voyage ne dura point longtemps, quelques jours à peine de traversée au gré des vents leur permis de gagner une île non loin sur laquelle trônait en sa partie orientale une large Lagune. C'est là qu'ils bâtirent la citée qu'ils nommèrent Fortuna, en l'honneur de Dame Fortune, Saint Patron de la chance, de la destinée et du hasard.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "C’est un plaisir de vous accueillir en Fortuna.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "C’est un plaisir de vous accueillir en Fortuna.",
+		"tradeRequest": "C’est un plaisir de vous accueillir en Fortuna.",
+
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,213],
+		"uniqueName": "Colonies",
+	        "uniques": ["[+1 Gold] from each Trade Route","[+2] Movement <for [Water] units>", "Gain an extra spy <upon entering the [Renaissance era]>","[-66]% maintenance costs <for [Water] units>"],
+		"cities": ["Fortuna", "Lykaron", "Rio de Canossa", "Rivoli", "Marisma", "Miraglia", "Leandra", "Santa Leone"]
+	},
+
+        {
+		"name": "Velsna",
+		"leaderName": "Patrice Valeria Visconti",
+		"adjective": ["Velsnien"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "Située au cœur du continent d’Eurysie, Velsna est une cité-Etat fondée au VIIIème siècle, selon la tradition historiographique par des commerçants provenant du sud de l'Eurysie installés dans une lagune qui deviendra le berceau de Velsna, ce dans le but d’exercer un droit de péage sur les navires transitant dans la région.",
+		"startIntroPart2": "La provenance exacte de ces colons est incertaine, mais la langue velsnienne, malgré des apports auccent et zélandais, est relativement proche des régions de Fortuna. Encore aujourd'hui, la quasi-totalité de l'élite patricienne de Velsna trouve ses origines dans cette vague migratoire, le reste de la population pour la plupart indigène ayant gardé dans leurs patronymes des caractéristiques zélandaises ou auccent.",
+		
+		"declaringWar": "...",
+		"attacked": "L'eau et les navires sont les meilleurs des remparts.",
+		"defeated": "Il faut dissimuler sa sagesse, et prétendre n'être que des lourdaud, de façon à ne paraître supérieurs que grâce à nos qualités de négociateur... Voici comment vous pouvez vous convaincre que les velsniens sont les mieux formés à la philosophie comme à la rhétorique : si vous parlez à n'importe quel velsnien ordinaire, il peut sembler stupide, mais à la fin, comme un archer habile, il vous décochera quelque brève remarque qui vous prouvera que vous n'êtes qu'un enfant.",
+		"introduction": "Étrangers, bienvenue aux Bureaux du Grand commerce et des étrangers de Velsna. Ce bâtiment est magnifique n'est-ce pas ? C'est ici que l'on fabriquait les navires partant attaquer la Zélandia à une autre époque. Maintenant c'est ici que siège le Maître du Grand commerce et des étrangers, c'est à lui qu'il faudra vous adresser pour toute demande d'ambassade dans notre cité. C'est également lui qui prendra part à toute réunion diplomatique à l'étranger impliquant Velsna, du moins c'est lui qui délègue sa présence aux autres membres du Conseil Communal. Ce que vous voulez dire à notre République, il faut le dire à lui en premier lieu. Julia Cavalli, c'est son nom. Enfin, c'est lui que vous verrez si jamais...une guerre devait être déclarée. N'hésitez donc pas à venir ici pour vous exprimer. J'espère que vous trouverez ce que vous cherchez à Velsna.",
+		
+		"neutralHello": "Étranger, comme tu peux le voir notre cité est grande et belle.",
+		"neutralLetsHearIt": ["Étranger, tu es toujours là ?"],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Tâchez de rester courtois, étranger. Son excellence Matteo DiGrassi est un homme de discipline qui ne tolère que peu les écarts de conduite. Veuillez vous adresser à lui en des termes purement diplomatiques.",
+		"hateLetsHearIt": ["Étranger, tu es toujours là ?"],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Le Triumvirat, le Sénat et le Conseil Communal de Velsna te salue.",
+		"tradeRequest": "Étranger, j'espère que tu es aussi ravi que moi de pouvoir commencer cette visite thématique.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [195,12,38],
+		"uniqueName": "Sénat des 1000",
+	        "uniques": ["[-50]% City-State Influence degradation", "When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [33]% chance>", "Receive triple Gold from Barbarian encampments and pillaging Cities"],
+		"cities": ["Velsna", "Umbra", "Vatluna", "Cerveteri", "Nowa-Velsna", "Saliera", "Strombola", "Velathri", "Tercera", "Tarquina", "Velcal"]
+	},
+
+        {
+		"name": "Sylva",
+		"leaderName": "Duchesse Alexandra Boisderose",
+		"adjective": ["Sylvois"],
+		"startBias": ["Jungle", "Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "Le Duché de Sylva est une société féodale composée de plusieurs comtés autonomes d'un point de vue politique mais assujettis à la Duchesse, matriarche de la Dynastie Boisderose.",
+		"startIntroPart2": "La noblesse partage le pouvoir avec des représentants élus par le peuple. Chaque comté partage la gouvernance avec une Basse Assemblé des Élus composée d'un représentant par agglomération, et le Duché partage la gouvernance avec la Haute Assemblé des Élus composée d'un représentant par comté.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "C'est toujours un plaisir d'établir des échanges avec des nations jusque là sans contact, d'autant plus lorsqu'il s'agit d'apporter un message plein d'ambition et d'entreprises prometteuses.",
+		
+		"neutralHello": "Bien à vous.",
+		"neutralLetsHearIt": ["Bien à vous."],
+		"neutralNo": ["Bien à vous."],
+		"neutralYes": ["Bien à vous."],
+
+		"hateHello": "Bien à vous.",
+		"hateLetsHearIt": ["Bien à vous."],
+		"hateNo": ["Bien à vous."],
+		"hateYes": ["Bien à vous."],
+		
+		"afterPeace": "Bien à vous.",
+		"tradeRequest": "Bien à vous.",
+
+		"outerColor": [15,75,121],
+		"innerColor": [247,135,2],
+		"uniqueName": "Duché",
+	        "uniques": ["[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
+		"cities": ["Bourg des Mahoganys", "Baobab Ville", "Bourg Rougris", "Yve-Fleurie", "Chaudronie", "Oméride", "Isette sur Mer", "Azurade", "Plateauciel", "Landivar", "Dénétrius"]
+	},
+
+        {
+		"name": "Tanska",
+		"leaderName": "Harald Frogsɵn",
+		"adjective": ["Tanskien"],
+		"startBias": ["Coast", "Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "Vieille république marchande, Tanska est aujourd'hui un pays fédéral densément peuplé en dépit de sa taille à l'agriculture impressionnante et diversifiée. Tourné vers la mer, la petite cité maritime de Tanska aux multiples canaux et marais asséchés s'est étendue à parti de la période médiévale grâce au commerce des denrées du continent en profitant de sa position géographique avantageuse.",
+		"startIntroPart2": "Une ouverture qui permet de compenser l'absence quantitatives de ressources importantes à l'époque comme le fer ou les forêts coupées pour les navires.",
+		
+		"declaringWar": "Tous les hommes naissent et demeurent égaux en droit. Si ils ne les respectent pas, c'est à la justice de se charger d'appliquer la loi et à l'Etat de chercher à corriger le tir.",
+		"attacked": "En espérant que la raison et la civilité l'emporte sur l'absurdité et la barbarie.",
+		"defeated": "En espérant que la raison et la civilité l'emporte sur l'absurdité et la barbarie.",
+		"introduction": "Dans le cadre de notre établissement de relations normalisées avec un certain nombre d'Etats par delà les continents de ce monde, c'est avec plaisir que nous avons reçus votre lettre.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Nous ne sommes pas amis, soyez rassurés nous sommes en accord la dessus. Et nous ne le seront pas de si tôt."],
+		"hateYes": ["En espérant que la raison et la civilité l'emporte sur l'absurdité et la barbarie."],
+		
+		"afterPeace": "Nous ne sommes pas amis, soyez rassurés nous sommes en accord la dessus. Et nous ne le seront pas de si tôt.",
+		"tradeRequest": "En espérant que la raison et la civilité l'emporte sur l'absurdité et la barbarie.",
+
+		"outerColor": [0,32,91],
+		"innerColor": [141,69,28],
+		"uniqueName": "Administration",
+	        "uniques": ["[-100]% unhappiness from the number of cities", "[+50]% Unhappiness from [Population] [in all cities]"],
+		"cities": ["Norja", "Ny-Norja", "Halvɵ", "Järvi", "Kàlfafell", "Akrak", "Førdeild", "Haapismli", "Vardö", "Fästveg"]
+	},
+
+        {
+		"name": "Burujoa",
+		"leaderName": "Son Altesse Impériale Tadashi IV",
+		"adjective": ["Burujois"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Confucianism",
+		
+		"startIntroPart1": "Cette empire a été constitué par la famille Burujoa, à l’origine une simple famille de propriétaires terriens, qui s'est enrichie lors d’une grande famine en 890 et qui acheta un à un les titres nobiliaires jusqu'à devenir roi de tout Ylma Jinu en 897. Les habitants d’Ylma Jinu ont toujours été très doués en construction navale et la famille Burujoa se constitua très vite une importante flotte de navires de tout type.",
+		"startIntroPart2": "Les empereurs qui se succédaient trouvaient que l’empire manquait de plus en plus de place et au fur et à mesure ils grignotaient les territoires de l’Ouest du pays, dans l’actuelle Tahoku, mais cela n’était pas suffisant et ce grignotage très long et difficile. C’est pour cela que le roi Ken II lança une grande politique de colonisation en 1347 avec une première expédition sur les côtes sibériennes du Nord et l’intégration des provinces du Vomogorod en 1545 et la proclamation officielle de l’empire.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Votre Excellence, je me permets de vous contacter en tant que représentante de mon frère, l’empereur tadashi IV, mais également de l’empire Burujoa tout entier.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Il est évident que nos relations pourraient être bien meilleures si nous réglons enfin ce litige frontalier vieux de plusieurs centaines d'années.",
+		"tradeRequest": "Votre Excellence, je me permets de vous contacter en tant que représentante de mon frère, l’empereur tadashi IV, mais également de l’empire Burujoa tout entier.",
+
+		"outerColor": [182,241,149],
+		"innerColor": [1,22,253],
+		"uniqueName": "Absolutisme",
+	        "uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster"],
+		"cities": ["Karaimu", "BongDAng", "Xine-Shoudu", "Jin City", "Burugrad", "Azura", "Indiga", "Negui", "Vilmokoraïd", "Kūlanakauhale"]
+	},
+
+        {
+		"name": "Maronhi",
+		"leaderName": "Shōgun Awara Kouyouri",
+		"adjective": ["Maronhien"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Cultural",
+	        "favoredReligion": "Buddhism",
+		
+		"startIntroPart1": "La Maronhi est une terre où la passion est souvent présente. Après une réputation de terre d'aventures où prédominent les éléments exotiques inspirés de la faune, de la forêt ou du bagne, la Maronhi aspire à un autre jugement et une évaluation plus réaliste de ses atouts.",
+		"startIntroPart2": "Cette nation, qui a longtemps été le creuset des folles légendes, est avant tout désireuse de se dégager des clichés et doit assumer une crise de croissance et de maturité. Crise de croissance à être désormais reconnue dans le monde entier alors qu'elle est encore trop peu et trop mal développée. Crise de croissance pour les Maronhiens qui se battent pour un développement économique à leur échelle. Crise de maturité pour une classe politique frondeuse, souveraine, farouchement nationaliste et spiritualiste.",
+		
+		"declaringWar": "Cultiver la nostalgie du passé est une erreur. Mais ceux qui n'ont de considération que pour l'instant présent et affectent de détester le passé font figure de gens bien superficiels.",
+		"attacked": "Ne cherchez pas à suivre les pas des hommes qui vous ont précédés. Cherchez ce qu’ils cherchaient.",
+		"defeated": "L'homme content de son sort ne connaît pas la ruine.",
+		"introduction": "Nous vous remercions pour la sollicitude que votre glorieuse nation nous accorde et vous envoyons nos meilleurs vœux de prospérité.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Par ce communiqué, nous souhaitons vous faire part de l'approbation de l'Assemblée des Man et de la Gran Man quant à votre requête."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Par ce communiqué, nous souhaitons vous faire part de l'approbation de l'Assemblée des Man et de la Gran Man quant à votre requête."],
+		
+		"afterPeace": "Se connaître soi-même, c'est s'oublier. S'oublier soi-même, c'est s'ouvrir à toutes choses.",
+		"tradeRequest": "Dans le 'Vide' il y a le bien et non le mal. L'intelligence est 'être'. Les principes sont 'être'. Les voies sont 'être'. Mais l'esprit est 'Vide'.",
+
+		"outerColor": [251,220,8],
+		"innerColor": [161,0,0],
+		"uniqueName": "Unité familliale",
+	        "uniques": ["[+1 Culture] [in all cities] <with [1] to [2] neighboring [{unimproved} {Jungle}] tiles>", "[-50]% Unhappiness from [Population] [in all cities]"],
+		"cities": ["Siwa", "Lawao-Heiyan", "Fujiao", "Yeonju", "Uminomon", "Kyugawa", "Ukabumachi", "Iwako", "Kayawa", "kouhou", "Cuetlachquiauhco"]
+	},
+
+	{
 		"name": "Banairah",
 		"leaderName": "Khasser Saroud Al'Tenhè",
 		"adjective": ["Banairais"],
