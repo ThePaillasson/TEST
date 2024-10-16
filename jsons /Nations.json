@@ -1,0 +1,534 @@
+[
+  
+  {
+		"name": "Banairah",
+		"leaderName": "Khasser Saroud Al'Tenhè",
+		"adjective": ["Banairais"],
+		"startBias": ["Desert","Hill"],
+		"preferredVictoryType": "Cultural",
+	        "favoredReligion": "Islam",
+		
+		"startIntroPart1": "Le peuple banairais a longtemps été un peuple nomade se déplaçant à cheval ou dromadaire, selon les aires géographiques qu'il occupait. Arpentant ses terres s'étendant sur toute la moitié nord du continent au fil des saisons et migrations des animaux, il souffrit beaucoup des sociétés sédentarisées qui s'installèrent peu à peu chez lui. La concurrence entre les Banairais et ces jeunes civilisations dura cependant très peu de temps, et le peuple banairais suivit le mouvement général : peu à peu les groupes (on ne peut pas parler de clans ou tribus, mots impliquant un cloisonnement trop important entre ceux-ci) se rassemblèrent pour organiser une riposte efficace contre les perturbateurs. Ce fut le début de la sedentarisation organisée des Banairais, optimisée pour défendre au mieux leurs ressources.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Salutations.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "C'est avec joie que nous répondons positivement à votre demande.",
+		"tradeRequest": "Salutations.",
+
+		"outerColor": [195,21,20],
+		"innerColor": [252,251,249],
+		"uniqueName": "Démocratie directe",
+	        "uniques": ["[+1 Culture] [in all cities] <with [1] to [2] neighboring [{unimproved} {Desert}] tiles>", "[-50]% Gold cost of acquiring tiles [in all cities]"],
+		"cities": ["Abunaj","Al Kara", "Balhaya", "Zaki al-Pour", "Sayat", "Sehras", "Zagroud"]
+	},
+
+	{
+		"name": "Empire du Nord",
+		"leaderName": "Empereur Maximilien II",
+		"adjective": ["Nordiste"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+	        "favoredReligion": "Christianity",
+		
+		"startIntroPart1": "L'Empire se dresse comme une nouvelle nation avec les prochains changement au niveau du pouvoir. Notre terre est riche en histoires, mais l'Empire est une jeune nation qui se stabilise suite aux grands remous politiques des dernières décennies.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Pour se développer, autant de l’intérieur que sur la scène internationale, nous avons besoin d'alliés. Nous avons toujours tenu nos promesses, avons toujours étés fidèles à nos idéaux et à nos alliés, je pense que nous sommes dignes de confiance.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Nous sommes disposés à toute diplomatie, n'hésitez pas, nos portes vous sont toujours ouvertes !",
+		"tradeRequest": "Salutations.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [255,0,50],
+		"uniqueName": "Mordor",
+	        "uniques": ["[+1 Culture] [in all cities] <with [1] to [2] neighboring [{Mine}] tiles>"],
+		"cities": ["Estham", "Laagefort", "Warstead", "Kankela", "Lanéo", "Grovern","Merigales", "Antistead", "Fort-Gelé", "Sutford", "Millster", "Amessor", "Beaverford", "Bortoise", "Hasstel", "Vilsburg", "Donebridge", "Saulles", "Alberside", "Stratpool", "Brightbury", "Rowbury", "Trogers", "Milstead", "Stalynson", "Gendebois", "Vieubourg", "Terre-Nouvelle", " Bois-aux-cerfs", "Millheller", "Woodsor", "Chelriden", "Ville-Morauze", "Champonce", "Elinor", "Whitehead", "Strendak", "Seeale", "Purguoise", "Val-de-Choir", "Don-sur-Rive", "Belle-écaille", "Malveau", "Triack-sur-lac", "Belle-cavalière", "Colon-les-Deuxtours", "Santre-sur-Ïote", "Cawle", "Trante", "Hault-les-trapeurs", "Graham"]
+	},
+
+	{
+		"name": "Manche Silice",
+		"leaderName": "Triumvirat",
+		"adjective": ["Siliquéen"],
+		"startBias": ["Grassland", "Hill"],
+		"preferredVictoryType": "Cultural",
+	        "favoredReligion": "Christianity",
+		
+		"startIntroPart1": "Bienvenue en Manche Silice, une espace tampon où trois peuples ont appris à cohabiter jusqu'à former une nation. Il y a les Incarnados, d'ascendance celtibère et latine, un peuple autochtone façonné par son rapport intime à la nature. Il y a les Tchenkov, des slaves affranchis de leurs maîtres germaniques venus conquérir monts et bois. Il y a enfin les Landrins ou Léandrais, communauté d'exilés d'un thalasso-Etat déchu.",
+		"startIntroPart2": "Il résulte de cet assemblage baroque des bizarreries institutionnelles pour contenter tout le monde. On peut ainsi citer la présence de 3 chefs d'Etats, l'alternance de capitale deux fois par an, la pratique de quatre langues, d'une multitude de religions. Par miracle, ça fonctionne puisque la péninsule d'Ostremont (une autre façon de nous désigner) figure parmi les puissances intermédiaires de ce monde.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Salutations.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Merci.",
+		"tradeRequest": "Nous vous soumettons le projet ci-dessous.",
+
+		"outerColor": [50,62,149],
+		"innerColor": [186,0,25],
+		"uniqueName": "Bassin minier",
+	        "uniques": ["[+1 Production] from every [Mine]","Double quantity of [Coal] produced"],
+		"cities": ["Meulière", "Rio de l'Estuaire", "Aigues-Fauves", "La Source", "Podestavre", "Matka", "Costa Tramposa", "La Bastide-Mandréas", "Castelisière"]
+	},
+
+	{
+		"name": "Althalj",
+		"leaderName": "Ijja Shenna",
+		"adjective": ["Althaljir"],
+		"startBias": ["Grassland", "Hill"],
+		"preferredVictoryType": "Cultural",
+	        "favoredReligion": "Christianity",
+		
+		"startIntroPart1": "L’Althalj ou le Tamurt n Althalj est un pays montagneux d'Afarée, longeant les Côtes Brisées. Sa capitale est Icemlet. Il est limitrophe du Tahbit Taht Alriyh à l’Ouest, territoire de la Sérénissime République de Fortuna, des territoires désertiques et montagneux du centre du Nord Ouest Afaréen allant de l’Alzili fi Alriyh, territoire d’outre-mer d’Aricie, au Jozor, aux régions de l’Illythie et l’Epibatie de l’Empire Rémien, jusqu’à l’Ouest de l’Ardchouja. La langue dominante est l’Alth (origine arabe avec patois des Côtes Brisées et le Beth, dérivé des communautés du Jozor et du Nedjma). L’Alth est utilisé par une grosse majorité des Althaljirs, avec une estimation de 95% de la population. Le bilinguisme Alth-Beth serait de l’ordre de 50%, ce qui fait partie des bilinguismes les plus étendus en terme de pourcentage de la population d’un pays. Les Althaljirs font partie d’un famille ethnique Afaréenne du Nord Ouest du continent qui est définie par des notions historiques et culturelles : maghrébines-tamazigh-arabe.",
+		"startIntroPart2": "Les frontières actuelles de l’Althalj remontent à la création officielle du Tamurt n Althalj en 1999 et sont cartographiées par la communauté international en 2005 afin de bien définir les contours de ce pays nouveau dont les populations d’origine Althaljirs s’étendent au sein des espaces désertiques et montagnes du centre du Nord Ouest Afaréen. Des suites de l’unification des nombreuses populations sous le même drapeau, les premières statistiques nationales ont pu être estimées et documentées à travers un long processus entamé en 1998. Aujourd'hui encore, ce processus est en cours et peine à produire des données fermes. Le gouvernement Althalj estime qu’il sera bientôt en mesure de répondre à cette demande internationale dés lors que l’administration Althalj aura été entièrement mise en place afin d’effectuer une centralisation des données. Les conséquences en sont sensibles, car l’Althalj, avec ce manque de données disponibles, est ralenti dans son souhait d'attirer des investissements extérieurs, malgré une croissance soutenue (non documentée) et des richesses naturelles importantes mais encore peu exploitées (potentiels hydroélectrique, minier, touristique).",
+		
+		"declaringWar": "Dans la nuit noire, sur la pierre noire, une fourmi noire. Ilâh la voit.",
+		"attacked": "Dans la nuit noire, sur la pierre noire, une fourmi noire. Ilâh la voit.",
+		"defeated": "Dans la nuit noire, sur la pierre noire, une fourmi noire. Ilâh la voit.",
+		"introduction": "Les Tamurt n Althalj prennent acte de la volonté précédente de la République de garder une cohésion nationale, quelques soient les religions, les us et coutumes et origines.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Merci.",
+		"tradeRequest": "Bonjour.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [0,64,128],
+		"uniqueName": "Matriarcat",
+	        "uniques": ["[+1 Culture] [in all cities] <with [1] to [2] neighboring [{unimproved} {Desert}] tiles>","[+1 Happiness] [in all cities] <with [1] to [2] neighboring [{unimproved} {Desert}] tiles>"],
+		"cities": ["Icemlet", "Asefsaf", "Acilmum", "Ifilku", "Tifuzzel"]
+	},
+
+	{
+		"name": "Loduarie",
+		"leaderName": "Lorenzo Geraert-Wojtkowiak",
+		"adjective": ["Loduarien"],
+		"startBias": ["Grassland", "Hill"],
+		"preferredVictoryType": "Domination",
+	        "favoredReligion": "Christianity",
+		
+		"startIntroPart1": "La Loduarie Communiste était autrefois la république de Loduarie depuis 789 ans (toutes les archives d'avant furent détruites). Tout se passa bien pendant 780 ans, mais une terrible épidémie survint et l'instabilité politique et citoyenne commença. Ce fut la période des années sombres, qui étaient prédestinées à durer pendant 14 ans. 1 million de personnes sont mortes pendant cette période. Heureusement, un homme nommé Manuel Maquaux fut élu président de la République de Loduarie. Il ramena la stabilité dans le pays. Mais certaines personnes ne furent pas de cet avis. Ainsi, le 15 juin 1999, la Loduarie et son président actuel ( Manuel Maquaux) fut victime d’un coup d’état fasciste mené par des grands généraux de l’armée loduarienne.",
+		"startIntroPart2": "Il s’ensuivit donc une révolution forte de 4 millions de loduariens. Après une longue période de combats (Guerre civile loduarienne de 1999-2002), la révolution, menée par Lorenzo Geraert-Wojtkowiak, jeune de 19 ans, s’ensuivit par la prise de contrôle de la Loduarie par les révolutionnaires. Lorenzo fut nommé à la tête du gouvernement et posa les bases du fonctionnement de la nouvelle démocratie communiste de Loduarie. Ainsi naquit la Loduarie communiste.",
+		
+		"declaringWar": "Agissez donc. Mais je ne garantirais pas la survie de votre régime à terme.",
+		"attacked": "Agissez donc. Mais je ne garantirais pas la survie de votre régime à terme.",
+		"defeated": "...",
+		"introduction": "Bonjour et bienvenue. Vous êtes sûrement ici pour entretenir des relations diplomatiques avec notre nation. Si c'est le cas, je vous prierai d'adresser vos lettres au secrétaire général de la Loduarie communiste, Geraert-Wojtkowiak Lorenzo, pour la simple et bonne raison que nous n'avons pas encore de ministre des affaires étrangères.",
+		
+		"neutralHello": "Camarade.",
+		"neutralLetsHearIt": ["Camarade."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Je ne perdrais pas mon temps avec vous.",
+		"hateLetsHearIt": ["Je ne perdrais pas mon temps avec vous."],
+		"hateNo": ["Réinsultez à nouveau notre organisation et nos choix, émettez des sanctions à notre encontre, ou même encore tentez quelque chose contre ceux que nous protégeons, et notre riposte sera sans prise de recul."],
+		"hateYes": ["Veuillez accepter l'expression de mes sentiments les plus distingués."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Camarade, c'est avec plaisir que je décide de vous envoyer cette missive diplomatique.",
+
+		"outerColor": [218,25,0],
+		"innerColor": [0,0,0],
+		"uniqueName": "Loduarisme",
+	        "uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"cities": ["Lyonnars", "Astrana", "Doline", "Galaisie", "Port-Lodin", "Minae", "Ruilice", "Klialine"]
+	},
+
+	{
+		"name": "Youslévie",
+		"leaderName": "Hemeraldo "Aldo" Vera",
+		"adjective": ["Youslève"],
+		"startBias": ["Grassland", "Hill"],
+		"preferredVictoryType": "Cultural",
+	        "favoredReligion": "Christianity",
+		
+		"startIntroPart1": "La Youslévie est issue de l'union des royaumes de Yous ("les hommes du sud") et des Lèves ("les hommes du nord") en 1364, situé au centre des routes commerciales terrestres et maritimes le pays, c'est développé et est devenu une puissance médiévale importante recueillant de nombreuses immigrations de part et d'autres des autres pays de l'époque même si les deux ethnies principales restèrent les Yous et les Lèves. Au fur et à mesure que la Youslévie prospère un vent de démocratie souffle sur le peuple, c'est pourquoi en 1671 suite à un accord avec le monarque en place la Youslévie devient une monarchie constitutionnelle. Ce système va perdurer de manière pacifique pendant deux siècles et demi et va permettre à la Youslévie de rayonner sur le plan commercial, culturel, artistique, philosophique, mais aussi scientifique et attirer les émigrés de nombreux pays notamment les Basques qui comptent pour à peu près pour 8 millions de la population actuelle et constituent la minorité la plus représentée en Youslévie.",
+		"startIntroPart2": "Cependant, en 1903, une révolution républicaine va éclater menant à une guerre civile avec les pro-royalistes et les républicains, qui va se solder le 23 novembre de l'année suivante par la victoire des républicains et la disparition du souverain de l'époque créant le plus grand mystère de l'histoire de la Youslévie. Cet événement est plus connu sous le nom de "La Disparition". À partir de cette période, la Youslévie devient officiellement une République à tendance socialiste mais toujours tournée vers le commerce. C'est d'ailleurs cette tendance socialiste qui va mener au plus grand drame de l'histoire Youslève. En effet suite aux élections présidentielles remportées par un président de gauche puis à son assassinat et le coup d'État par l'armée le 09 octobre 1975, c'est le début d'une guerre civile opposant l'armée, les ultras-conservateurs et certains royalistes nostalgiques aux républicains aidés par l'extrême gauche et les indépendantistes Yous et Lèves souhaitant un référendum démocratique pouvant mener à une scission en deux États distincts.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "En premier lieu, je ne peux vous cacher que je suis extrêmement excité de vous parler.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Décidément, que de sujets de discussion avons nous là. Si j'ai pris un plaisir infini à vous répondre, mon temps ainsi que le papier à ma disposition ne sont pas des ressources illimitées.",
+
+		"outerColor": [255,23,23],
+		"innerColor": [166,166,166],
+		"uniqueName": "République Fédérative",
+	        "uniques": ["[+1 Happiness] from every [City]"],
+		"cities": ["Sedjan", "Breuillet", "Kronaï", "Baltos", "Bell Vill", "Lokeren", "Tryposeidonas", "Janusia", "Solaï", "Onibaïa", "Môt", "Saisies", "Luna", "La Vandera", "Frontalis"]
+	},
+
+	{
+		"name": "Cémétie",
+		"leaderName": "Son Altesse Dimitrios III Achanios",
+		"adjective": ["Cémétien"],
+		"startBias": ["Desert", "Coast"],
+		"preferredVictoryType": "Religious",
+	        "favoredReligion": "Christianity",
+		
+		"startIntroPart1": "La monarchie est affaiblie par des décennies d’échecs princiers mais les institutions demeurent largement en faveur du maintien de la principauté. Le traditionnalisme ambiant pousse-même plutôt le monarque vers des rêves de grandeur par l’autorité, mais les enjeux restent trop nombreux dans un pays encore largement sous-développé, avec de grands écarts de niveau de vie (la côte et les axes fluviaux sont relativement modernisés mais l’arrière-pays demeure très pauvre). L’explosion démographique récent des grandes villes, à la suite des modernisations de la fin du vingtième siècle, pousse le pays vers le précipice de la surcroissance : un écueil auquel le gouvernement devra se confronter. Les mœurs chrétiennes traditionnelles se montrent farouchement hostiles à toute incursion gouvernementale dans la politique des naissances.",
+		"startIntroPart2": "Les mouvements politiques hiptiques dénoncent l’enrichissement des nomes (subdivisions administratives, régions) les plus au nord, au détriment des populations de l’arrière-pays. Les lengadociens soutiennent une plus grande autonomie pour le nome de Kíniakeia (Ginhac), seule nome où ils sont majoritaires. Les particularistes s’impatientent face aux autorités princières et des groupuscules anarchistes sont à l’origine d’actes violents indépendantistes.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Bonjour.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Bonjour.",
+
+		"outerColor": [13,94,175],
+		"innerColor": [255,255,255],
+		"uniqueName": "Berceau du Christ",
+	        "uniques": ["[+1 Faith] from every [City]", "[+1 Culture] from every [City]"],
+		"cities": ["Héraclée", "Ménorophon", "Samarée", "Apameia", "Ischopolis", "Kíniakeia"]
+	},
+
+	{
+		"name": "Shuharri",
+		"leaderName": "Yuu aon Laonko",
+		"adjective": ["Shuharri"],
+		"startBias": ["Tundra", "Coast"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "L'Union des terres australes de Shuharri est au départ un traité régulant les interactions entre différents peuples autochtones de Paltoterra du Sud. Il y en a plusieurs dizaines de cultures très différentes rien que sur cette terre (et elles auront leur importance), mais les quatre principales que je puisse vous citer sont (noter que les influences sont un résumé très grossier de ce que je souhaite représenter, les Shuharri ne sont clairement pas des transpositions de cultures réelles et agrègent des influences dans le but de construire une culture adaptée aux terres représentées.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Puisse la chaleur guider vos pas.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Bonjour.",
+
+		"outerColor": [15,5,5],
+		"innerColor": [255,12,12],
+		"uniqueName": "Institution diplomatique interethnique",
+	        "uniques": ["[-50]% unhappiness from the number of cities", "[+1 Culture] [in all cities] <with [1] to [2] neighboring [{unimproved}] tiles>"],
+		"cities": ["Okkaluin", "Hohhothai", "Tumgao", "Qikiqtaniitsoq", "Ilmarde"]
+	},
+
+	{
+		"name": "Fujiwa",
+		"leaderName": "Premier Ministre Ishiada Shimura",
+		"adjective": ["Fujiwan"],
+		"startBias": ["Coast", "Hill"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Shinto",
+		
+		"startIntroPart1": "Le Fujiwa a longtemps été un pays menant une politique isolationniste stricte. Cette période, appelée l'ancien Fujiwa, était sous l'autorité de l'Empereur et de la famille impériale Kozuki installé sur l'archipel depuis les années 1100. Vers les années 1950, les siècles de travaux des érudits Fujiwans amène à une pensée démocratique au sein de la population. L'ère impériale s'affaiblit peu à peu pour laisser place à un système plus juste, égal et libre. Avec l'émergence des flux d'informations et d'un monde ouvert, l'Etat de Fujiwa s'adonne à se libéraliser en même temps que la démocratie. La politique isolationniste va s'effacer avec l'arrivée de la démocratie en 1955 et la promulgation de la nouvelle Constitution. L'actuel Empereur, Kozuki Oden, occupe désormais une place honorifique, étant défini comme le symbole de l'État et de l'unité du peuple fujiwans.",
+		"startIntroPart2": "Le pays tente alors de trouver une voix équilibrée à travers le monde et ouvre officiellement ses frontières et son marché en 1955. La vie politique et sociale du Fujiwa repose désormais sur des fractures assez visibles entre une part de la population chérissant la démocratie d'aujourd'hui et d'autres nostalgiques souhaitant restaurer les idéaux de la famille impériale et son pouvoir divin."
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Le Bureau du Premier Ministre, ainsi que le Ministère des Affaires Etrangères, tiennent tout d'abord à vous remercier pour l'intérêt que vous manifestez à la bonne forme de nos relations bilatérales.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Bonjour.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [196,38,70],
+		"uniqueName": "Isolationnisme",
+	        "uniques": ["[+20]% Production when constructing [All] wonders [in all cities]"],
+		"cities": ["Sokshō", "Tomocho", "Toyama", "Kōshi", "Houren", "Asakura", "Miyako", "Moon"]
+	},
+
+	{
+		"name": "Saint-Marquise",
+		"leaderName": "Président Joshua Andrew Caleb",
+		"adjective": ["Saint-Marquois"],
+		"startBias": ["Coast", "Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "Le pays est né grâce à un pacte durement gagné et signé entre les amérindiens et les colons franco-anglais. Des années suivant la signature de cette alliance, la cohabitation fut difficile pour cause de différences culturelles, mais grâce à deux hommes : Marquise, un français et Mont-Law, un anglais, qui ont réussi à trouver un compromis avec les autochtones pour continuer à coexister et faire naitre la Nation. Le français était de confession catholique, il donna son nom au pays et l'anglais, lui, donna son nom à la future Capitale.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Envoyez vos messages de diplomatie ici, le Premier Conseiller vous répondra, mais lorsque celui-ci est en mission diplomatique, c'est le Chef législatif de la Chambre supérieure, le Haut Sénateur, qui prendra le relais, temporairement, dans les relations diplomatiques internationales, à la demande du Président de la République de Saint-Marquise.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Bonjour.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [7,0,178],
+		"uniqueName": "Diplomatie",
+	        "uniques": ["[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory"],
+		"cities": ["Mont-Law", "Barthelemew", "Bluepont", "Villecorn", "Valmount", "Port Hafen"]
+	},
+
+	{
+		"name": "Miridian",
+		"leaderName": "Einsenkaiser",
+		"adjective": ["Miridien"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Le 5 février 1623 des colons Primains et Ambarrois mener par les capitaine Hans von Hafenberg et Francois de Villar décidèrent de s'installer sur le sol aleucien. Ainsi une baie jugée propice à l'installation d'une ville fut choisit, cette ville fut appeler Elysium. La région était abitée par une tribu nommée les Karbe, les 2 capitaines décidèrent de cohabiter pacifiquement avec les indigènes. Au bout de 30 ans de cohabitation amicale les 2 capitaines qui dirigeaient le jeune pays moururent. Mais leurs fils ne voulaient plus partager le pouvoir entre les deux familles. Ils voulaient tous les deux régner seul. Ce qui devait arriver arriva. Ainsi le 16 mars 1653 les 2 hommes se déclarèrent la guerre. Le premier prit la tête du nord du pays, il s'appelait Karl von Hafenberg. Le second prit la tête du sud, son nom était Charles de Villar. La première bataille fut celle pour Elyseum le 25 mars 1653. Elle fut sanglante, ce jour la 16 000 hommes perdirent la vie. La bataille dura 3 jours, les troupes de von Hafenberg furent chassées de la ville. Il décida alors de s'installer Sturmburg, pendant ce temps de Villar lui s'installa à Elysium. Karl von Haffenberg dut trouver un moyen pour justifier cette défaite, il accusa alors les indigènes de s'être ranger aux cotés de de Villar. Il érigea alors les indigènes en ennemis numéro 1 et ses troupes mieux armées et nourries que les indigènes les massacrèrent. Les quelques survivant à cette purge se rallièrent alors à la cause de de Villar. Et la guerre dura et dura. Il y eut quelque bataille notoire comme en 1875 où les troupes de Otto von Hafenberg faillirent reprendre Elysium, 54 milles morts. L'an 2008 vit venir la fin de ce conflit fratricide. Les 2 royaumes détruits et ruinés voient arriver la menace d'une invasion extérieure(l'Angelya), les 2 rois décident alors de mettre leurs différents de cotés et de s'unir pour faire face. L'assaillant fut repousser et la guerre des frères comme on l'appelle aujourd'hui prit fin, après 355 années de combat.",
+		"startIntroPart2": "Les 2 rois décidèrent de revenir à l'ancien régime où le pays était dirigé par 2 rois. Mais le peuple n'était pas de cette avis. Le 27 juin 2008 une centaine d'homme se réunirent dans une maison d'Elysium et élire un chef. Afin de représenter les 2 ethnies qui peuplaient le pays ils choisirent un Primain-Ambarois surnommé l'homme de fer pour son courage. En 40 jours les 2 rois furent défait, les pertes furent estimées à 32 000 milles morts. Ainsi le 6 aout 2008 fut proclamer la république de Miridian. Les deux rois furent juger de crime contre l'unité nationale, la liberté et condamnés à mort. Pendant 2 ans un gouvernement provisoire dirigea Miridian. Une constitution fut voter par le peuple. Et l'homme de fer fut élu kaiser(président), on l'appela alors Eisenkaiser, l'empereur de fer. Le 6 aout fut choisit comme date de fête nationale(date de la proclamation de la République), par ailleurs le 27 juin(début de la révolution)et le 5 février(installation des colons) sont aussi des jours fériés. Deux immenses mémoriaux ont d'ailleurs été construit, l'un en hommage aux victimes de la purge et l'autre aux morts militaires et civiles à la guerre des frères."
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Veuillez agréer mes plus sincères salutations.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Moi Hans Golben, ministre aux affaires étrangères de la République de Miridian, ait le plaisir de présenter un avis favorable à votre requête."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Bonjour.",
+
+		"outerColor": [20,74,199],
+		"innerColor": [245,33,33],
+		"uniqueName": "Einsenkaiser",
+	        "uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster"],
+		"cities": ["Elysium", "Sturmburg", "Lowenstadt", "Hafenberg", "Villar", "Vepec", "Adlerbrug", "Konigstadt", "Doleau"]
+	},
+
+	{
+		"name": "Faravan",
+		"leaderName": "Arash Farajpour",
+		"adjective": ["Faravanien"],
+		"startBias": ["Desert", "Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Zoroastrianism",
+
+		"startIntroPart1": "Faravan est un vieux pays. De tradition persane, son histoire est millénaire et chargée de références, de conflits ainsi que d'exploits. Aujourd'hui une démocratie stable, la République Faravanienne fait le lien entre les traditions et les aspirations libérales de son peuple. Basé sur une économie rentière liée à l'exploitation de son sol riche en hydrocarbures et autres gaz, cette pétrodémocratie a pu se financer pour proposer à ses citoyens des services à la hauteur de leurs aspirations. L'état n'hésite alors pas à piocher dans les caisses pour financer ce dont le peuple a besoin. Caisses alimentés par le bon sens du commerce qui a su être transmis de générations en générations chez les faravanien. Malgré cela, le pétrole ne coulera pas éternellement, et la république le sait. Des tentatives de diversification de son économie feront certainement partie de son futur.",
+		"startIntroPart2": "En outre, le climat globalement chaud de la région ne lui permettra pas non plus de développer son agriculture sans investissements d'infrastructure considérables. Composée de nombreuses régions désertiques et montagneuses, sa géographie est sa force tout en étant sa faiblesse. Faisant face à de nombreux défis, présenté par au moins autant d'opportunités, Faravan s'élance confiant vers un avenir qu'il espère radieux.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Salutations.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Bonjour.",
+
+		"outerColor": [200,16,46],
+		"innerColor": [0,150,57],
+		"uniqueName": "Empathie",
+	        "uniques": ["[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"cities": ["Bandarhan", "Sabriz", "Habaland", "Bushiraz", "Katanz", "Gilanan", "Izfoul", "Dazaran", "Bandar Mashhad"]
+	},
+
+	{
+		"name": "Gallouèse",
+		"leaderName": "Bastien II dè Draune",
+		"adjective": ["Gallèsant"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "L'Histoire du duché débute en 1210, lorsque Hervé dè Balde, vassal d'un Empire Chrétien Eurysien, obtient l'indépendance de son duché qui devient le Duché de Gallouèse (à l'époque orthographié 'Galluaeze'). Plusieurs siècles d'histoire riches en conquêtes et en alliances et une succession de plusieurs dynasties vont voir émerger au XXe siècle un Etat puissant, mais qui peine à s'industrialiser",
+		
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Les affaires seront traitées avec le plus grand soin au nom de son excellence Bastien II dè Draune, Duc de Gallouèse.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Bonjour.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,0],
+		"uniqueName": "Neutralité",
+	        "uniques": ["[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"cities": ["Ligert", "Vallètez", "Nonques", "Trouffles", "Poifflins", "Sant-Clèr-Iès-Vallètez", "Sphornes", "Holéons"]
+	},
+
+	{
+		"name": "Kölisburg",
+		"leaderName": "Wilhem III",
+		"adjective": ["Kölisien"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Le pays est heureux et les citoyens sont attachés à des valeurs conservatrices qui sont représentés par la monarchie et la religion mais aussi des valeurs plus modernes comme la fédération de leur pays. Les Kolisiens et Kolisiennes ont notamment montrés dans le passé un soutien à la commune de Kotios pour son affranchissement et soutenu des pays qui proclamait la fédéralisation de leur état. De plus, les citoyens sont soucieux de leurs droits et sont considérés comme étant une main d'oeuvre de qualité dû à leur travaille acharné et leur investissement. La population est pauvrement variée dû à sa situation géographique bien que le tourisme dans les états du nords notamment se fait dû aux évènements météorologiques tels que les aurores boréales et des vallées verdoyantes et notamment pour leur culture du bain thermal.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Ici, le canal diplomatique reçoit les missives des pays du monde.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Bonjour.",
+
+		"outerColor": [255,203,33],
+		"innerColor": [187,1,1],
+		"uniqueName": "Conservatisme",
+	        "uniques": ["[+2 Culture] [in all cities] <before discovering [Steam Power]>", "[+2] Movement <for [Water] units>"],
+		"cities": ["Galgarde", "Trifftenberg", "Pärbruck", "Wälhen"]
+	},
+
+	{
+		"name": "Listonia",
+		"leaderName": "Empereur Philipe Ongro III",
+		"adjective": ["Listonien"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Vieil empire colonial sur le déclin, l’Empire listonien est une puissance eurysienne déchue qui tente envers et contre tout de maintenir son ancienne gloire. Peuple fier et conservateur, les listoniens incarnent un fragment d’une époque coloniale pro-eurysienne désormais révolue. De nature isolationniste, la nation listonienne se retrouve pourtant aujourd’hui confrontée à une crise sans précédent qui met en péril plus d’un millénaire de domination coloniale à travers le globe.",
+		
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "...",
+		"introduction": "Votre réputation vous précède. L'Empire Listonien a reçu et pris connaissances de votre invitation. Et sur ordre de mon suzerain, apporte par ma présence une réponse à celle ci.",
+		
+		"neutralHello": "Bonjour.",
+		"neutralLetsHearIt": ["Parle."],
+		"neutralNo": ["Non."],
+		"neutralYes": ["Oui."],
+
+		"hateHello": "Bonjour.",
+		"hateLetsHearIt": ["Parle."],
+		"hateNo": ["Non."],
+		"hateYes": ["Oui."],
+		
+		"afterPeace": "Au revoir.",
+		"tradeRequest": "Bonjour.",
+
+		"outerColor": [248,195,0],
+		"innerColor": [0,81,151],
+		"uniqueName": "Colonia excommunicatus !",
+	        "uniques": ["No damage penalty for wounded units <for [non-[Air]] units>", "[+20]% Strength <when fighting units from a Civilization with more Cities than you>", "[+2] Movement <for [Water] units>"],
+		"cities": ["Listonia", "Almada", "Faro", "Macao", "Bajawa", "Albigärk", "Nasabis", "Manilla", "Shati Alqahwa", "Porto-Mundo", "Santialche", "Jadida", "Tartugà", "Rosborg", "Jadis", "Port-Hafen"]
+	},
+
+]
